@@ -18,7 +18,7 @@ case $ch in
 	;;
 
 	4)res=`expr $a / $b`
-	  echo "Divisor of $a and $b is : $res"
+	  echo "Quotient of $a and $b is : $res"
 	;;
 	*)echo "INVALID CHOICE!"
 		
