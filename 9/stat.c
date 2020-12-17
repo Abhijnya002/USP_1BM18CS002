@@ -13,10 +13,12 @@ int main(int argc,char *argv[])
 	}
 	printf("File name: %s\n",argv[1]);
 	printf("Inode no : %ld\n",statbuffer.st_ino);
-	printf("Type and permission:  %o\n",statbuffer.st_mode );
-	printf("No of links: %ld\n",statbuffer.st_nlink);
 	printf("UID : %d\n",statbuffer.st_uid);
 	printf("GID : %d\n",statbuffer.st_gid);
+	printf("No of blocks allocated: %ld\n",statbuffer.st_blocks);
+	printf("Type and permission:  %o\n",statbuffer.st_mode );
+	printf("No of links: %ld\n",statbuffer.st_nlink);
+	
 	
 	exit(0);
 	
